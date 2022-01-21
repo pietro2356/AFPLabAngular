@@ -26,12 +26,16 @@
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.data{
-    flex: 1 1 100px;
+.data {
+  flex: 1 1 100px;
+  padding: 20px;
+  border-radius: 4px;
+
+  border-style: dotted;
 }
 
 /*  ---- TABLE ---- */

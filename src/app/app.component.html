@@ -1,6 +1,6 @@
 <div class="nav">
   <h1 class="tit">Welcome to {{title}}</h1>
-  <h3 class="sub">{{ msg }}</h3>
+  <!-- <h3 class="sub">{{ msg }}</h3> -->
   <p class="sal" (click)="onClick()" >{{api.getSaluto()}}</p>
 </div>
 
@@ -9,6 +9,7 @@
     <p><b>Codice:</b> {{res.codice}}</p>
     <p><b>Ospedale:</b> {{res.ospedale}}</p>
     <p><b>Localita:</b> {{res.localita}}</p>
+    <p *ngIf="res.unita_operativa != null"><b>Unità operativa:</b> {{res.unita_operativa}}</p>
     <!-- <p>Attesa: {{res.attesa.bianco}}</p> -->
     
 
@@ -65,8 +66,9 @@
       </tbody>
       </table>
 
+      <p *ngIf="res.messaggio != null"><b>Note:</b> {{res.messaggio}}</p>
       <p *ngIf="see">Ultimo aggiornamento dati: {{timeStamp}}</p>
-    <hr>
+    <!-- <hr> -->
   
   </div>
 </div>
