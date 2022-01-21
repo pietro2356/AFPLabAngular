@@ -1,0 +1,128 @@
+.nav {
+  display: grid;
+  place-items: center;
+}
+
+.tit {
+  text-decoration: underline wavy hotpink;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline overline #6cd3d1;
+}
+
+.sal {
+  font-size: 30px;
+  font-weight: bold;
+  color: #F04E47;
+}
+
+.sal:hover {
+  color: #10A343;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data{
+    flex: 1 1 100px;
+}
+
+/*  ---- TABLE ---- */
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* display: grid;
+  place-items: center; */
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-1wig {
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-wa1i {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle
+}
+
+.tg .tg-fymr {
+  border-color: inherit;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-5frq {
+  font-style: italic;
+  text-align: center;
+  vertical-align: top
+}
+
+/* ---- COLOR ---- */
+.bianco {
+  /*  */
+  background-color: white !important;
+  color: black !important;
+}
+
+.verde {
+  /*  */
+  background-color: green !important;
+  color: white !important;
+}
+
+.azzurro {
+  /*  */
+  background-color: #0080FF !important;
+  color: white !important;
+}
+
+.giallo {
+  /*  */
+  background-color: yellow !important;
+  color: black !important;
+}
+
+.arancio {
+  /*  */
+  background-color: orange !important;
+  color: white !important;
+}
+
+.rosso {
+  /*  */
+  background-color: red !important;
+  color: white !important;
+}
